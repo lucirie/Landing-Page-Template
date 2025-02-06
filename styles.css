@@ -28,11 +28,12 @@ a {
 .hero {
     flex-direction: column;
     padding: 15px 200px 100px 200px;
+    margin-bottom: 80px;
 }
 
 .header {
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 }
 
 ul {display: flex; gap: 10px;}
@@ -76,3 +77,52 @@ ul {display: flex; gap: 10px;}
     color: #E5E7EB;
     margin-bottom: 0 0 10px 0;
 }
+
+/* Information */
+/* 
+* {
+    outline: 2px solid red;
+} */
+
+.information, .info-items, .item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information .title {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    width: 100%;
+    margin: 30px;
+}
+
+.information {justify-content: space-evenly; margin-bottom: 80px;}
+.information .info-items {gap: 45px;}
+
+.info-items .item {
+    max-width: min-content;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item .subtext {
+    font-size: 18px;
+    text-align: center;
+}
+
+.item .img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    border: solid 3px rgb(92, 92, 255);
+}
+
+
+
+
+
+
