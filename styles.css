@@ -16,7 +16,7 @@ a {
 }
 
 .hero,
-.footer {
+.copywrite {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
@@ -174,5 +174,13 @@ ul {display: flex; gap: 10px;}
     color: white;
     text-align: center;
     margin-left: auto;
+}
+
+/* Copywrite */
+
+.copywrite {
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
